@@ -23,6 +23,10 @@ def parse_word(x):
 
 def get_random_compliment():
     """Get a random and sweet compliment to name your German girlfriend.
+
+    Example:
+    >>> c = get_random_compliment()
+    >>> assert c != ''
     """
     global adjektiven, pr, artikels
     idx = r.randint(0, 999)

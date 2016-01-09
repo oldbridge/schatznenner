@@ -45,3 +45,10 @@ def get_random_compliment():
     k = k[0].upper() + k[1:]
     return k
 
+
+def main():
+    print(get_random_compliment())
+
+
+if __name__ == "__main__":
+    main()
